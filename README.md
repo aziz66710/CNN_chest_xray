@@ -3,7 +3,7 @@
 ## Introduction
 Pneumonia is an infection within the lungs where the air sacs in one or both lungs have become inflamed. The air sacs fill with fluid or pus which causes coughing with phlegm, fever and difficulty breathing. It is caused by bacteria, viruses and/or fungi entering the respiratory system. Over 150 million people get infected with pneumonia on an annual basis especially children under 5 years old. Doctors, nurses and hospital staff review chest x-rays in order to diagnose a patient has pneumonia. They look for white spots on the lungs to identify an infection. With the emergence of machine learning and AI, computers can be taught to quickly and effectively identify and diagnose pneumonia based on the chest x-rays. This would greatly improve efficiency within the hospital and will help doctors streamline their care with their patients.
 
-                           ## Normal Chest X-ray                                                ## Normal Chest X-ray
+## Normal Chest X-ray ## Normal Chest X-ray
 ![Normal X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/normal.jpg) ![Pneumonia X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/pneumonia.jpg)
 
 ## Purpose
