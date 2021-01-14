@@ -26,7 +26,7 @@ In order to achieve high accuracy in our image classification, a series of pre-p
 1. Standardizing the image size and shape to ensure uniformity across the train, test, and validation datasets.
 2. Artificially create new images to grow the dataset using the ImageDataGenerator object in the Tensorflow-Keras library where the images have been rescaled, stretched, zoomed in or out and flipped. These new images will add variability and diversity to the dataset which will ensure that the CNN will become robust during training. 
 
-The intial given dataset contained a total of 5,863 X-Ray images and the following total is 10000 where it has been split into train-test-valid as 80-10-10.
+The intial given dataset contained a total of 5,863 X-Ray images and the following total is 10000 where it has been split into train-test-valid as 8000-1000-1000 respectively.
 
 ![Image Data Generator](https://github.com/aziz66710/CNN_chest_xray/blob/main/image_data_gen.png)
 
@@ -38,21 +38,38 @@ The following images displays the pre-processed images (vgg16 pre-processing, re
 ![Chest X-rays from Training Batch](https://github.com/aziz66710/CNN_chest_xray/blob/main/train_images.png)
 
 
-
 ### Build the Neural Network
+
+Now that the data has been prepared. The CNN can now be built! The CNN was built using the Tensorflow Keras library. The flow diagram below demonstrates all the different layers of the CNN and their specific details. The '?' indicates the varying number of batch sizes. 
 
 ![CNN Architecture](https://github.com/aziz66710/CNN_chest_xray/blob/main/cnn_architecture.png)
 
+Details on the parameters, cost functions and results from training can be found in: ![CNN X-ray classifier](https://github.com/aziz66710/CNN_chest_xray/blob/main/CNN_Normal_Pneumonia.ipynb)
 
 
-## Results 
+## Results and Discussion
+
+Training accuracy = 96%
+Testing Accuracy = 80%
 
 |`Class`        |`Precision`  | `Recall`    | `F1-Score`    |
 | -----------   | ----------- |-------------|---------------|
 | `Normal`      | `0.78`      | `0.84`      | `0.81`        |
-| `Pneumonia`   | `0.83`      | `0.77`      | `0.80`         |
+| `Pneumonia`   | `0.83`      | `0.77`      | `0.80`        |
 
-Accuracy = 80% on Test Data
+The images below demonstrates the confusion matrix of the test dataset containing the number of correct/incorrect classifications of the normal and pneumonia x-ray images.
+
+![Non-normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/non-norm_cm.png.png)
+
+![normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/norm_cm.png.png)
+
+ 
+
+## Future Work and Improvements
+- Improve accuracy of the model through hyperparameter optimization (increase number of layers, learning rate,etc)
+- Increase speed of computation through the use of GPU instead of CPU and reducing image size
+- Expand classification to identify what kind of pneumonia is present (bacterial or viral).
+
 
 
 
