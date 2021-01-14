@@ -27,6 +27,7 @@ In order to achieve high accuracy in our image classification, a series of pre-p
 2. Artificially create new images to grow the dataset using the ImageDataGenerator object in the Tensorflow-Keras library where the images have been rescaled, stretched, zoomed in or out and flipped. These new images will add variability and diversity to the dataset which will ensure that the CNN will become robust during training. 
 
 The intial given dataset contained a total of 5,863 X-Ray images and the following total is 10000 where it has been split into train-test-valid as 80-10-10.
+
 ![ImageDataGenerator] (https://github.com/aziz66710/CNN_chest_xray/blob/main/image_data_gen.png)
 
 3. Display images to ensure they have been pre-processed.
