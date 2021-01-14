@@ -11,7 +11,7 @@ This project will focus on the Image Classification of Normal and Pneumonia ches
 | Header | Title |
 | Paragraph | Text |
 
-| Syntax      | Description |
+| `Precision` | `Recall`    |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
