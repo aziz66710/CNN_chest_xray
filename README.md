@@ -7,10 +7,7 @@ Pneumonia is an infection within the lungs where the air sacs in one or both lun
 This project will focus on the Image Classification of Normal and Pneumonia chest x-rays using a Convolutional Neural Network (CNN). CNN is one of the most popular and powerful methods of deep learning for image processing, classificafication and segmentation. Its power stems from the convolution operation where it acts as a filter to identify key features within an image that can be used for accurate classification. 
 
 ## Dataset
-
-
-Dataset:
-https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+The dataset can be found at the following link: [Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 
 ![Chest X-rays from Training Batch](https://github.com/aziz66710/CNN_chest_xray/blob/main/train_images.png)
