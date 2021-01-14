@@ -6,7 +6,10 @@ This project will focus on the Image Classification of Normal and Pneumonia ches
 
 ![alt text](image.jpg)
 
-
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 
 
