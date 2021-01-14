@@ -5,7 +5,7 @@ Pneumonia is an infection within the lungs where the air sacs in one or both lun
 
 Based on the images of normal and pneumonia chest x-rays seen below, it can be very difficult to determine whether a patient has pneumonia or not. With the emergence of machine learning and AI, computers can be taught to quickly and accurately identify and diagnose pneumonia based on the patients chest x-rays. This would greatly improve efficiency within the hospital and will help doctors streamline their care with their patients.
 
-**Normal Chest X-ray           |  Pneumonia Chest X-ray**
+**Normal Chest X-ray**           | **Pneumonia Chest X-ray**
 :-------------------------:|:-------------------------:
 ![Normal X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/normal.jpg)   |  ![Pneumonia X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/pneumonia.jpg)
 
