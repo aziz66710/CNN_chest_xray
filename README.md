@@ -4,7 +4,7 @@
 This project will focus on the Image Classification of Normal and Pneumonia chest x-rays using a CNN. Chest x-rays are one of the most common ways of identifying and diagnosing a patient with a disease. 
 
 
-![alt text](image.jpg)
+![Chest X-rays from Training Batch](train_images.jpg)
 
 
 |`Class`        |`Precision`  | `Recall`    | `F1-Score`    |
