@@ -8,8 +8,8 @@ This project will focus on the Image Classification of Normal and Pneumonia ches
 
 | Precision | Recall | F1-Score |
 | ----------- | ----------- |
-| Normal | Title |
-| Pneumonia | Title |
+| Header | Title |
+| Paragraph | Text |
 
 
 
