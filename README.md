@@ -12,7 +12,9 @@ Tensorflow, Keras, Scikit-learn, Matplotlib, Image processing, Image augmentatio
 ## Dataset
 The dataset can be found at the following link: [Chest X-ray Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
-The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
+The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal). The file structure can be seen below.
+
+![Directory for images](https://github.com/aziz66710/CNN_chest_xray/blob/main/tree.png)
 
 It is important to note that there is **NOT** an equal distribution of images within the given directories. Therefore, it may be necessary to artificially augment the images to increase the size of the dataset (foreshadowing). Additionally, the images come in varying sizes and shapes and is therefore recommended that they are standardized into one size (foreshadowing, again).  
 
@@ -22,15 +24,21 @@ It is important to note that there is **NOT** an equal distribution of images wi
 
 In order to achieve high accuracy in our image classification, a series of pre-processing steps must be followed. These include:
 1. Standardizing the image size and shape to ensure uniformity across the train, test, and validation datasets.
-2. Artificially create new images using the ImageDataGenerator object in the Tensorflow-Keras library.
-3. Display images to ensure they have been pre-processed
+2. Artificially create new images to grow the dataset using the ImageDataGenerator object in the Tensorflow-Keras library where the images have been rescaled, stretched, zoomed in or out and flipped. These new images will add variability and diversity to the dataset which will ensure that the CNN will become robust during training.  
+3. Display images to ensure they have been pre-processed.
 4. Prepare the images in batches to be fed into the Neural Network.
 
-
-
-
+The following images displays the 
 ![Chest X-rays from Training Batch](https://github.com/aziz66710/CNN_chest_xray/blob/main/train_images.png)
 
+
+### Build the Neural Network
+
+![CNN Architecture](https://github.com/aziz66710/CNN_chest_xray/blob/main/cnn_architecture.png)
+
+
+
+## Results 
 
 |`Class`        |`Precision`  | `Recall`    | `F1-Score`    |
 | -----------   | ----------- |-------------|---------------|
