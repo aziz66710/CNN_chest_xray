@@ -28,13 +28,15 @@ In order to achieve high accuracy in our image classification, a series of pre-p
 
 The intial given dataset contained a total of 5,863 X-Ray images and the following total is 10000 where it has been split into train-test-valid as 80-10-10.
 
-![ImageDataGenerator] (https://github.com/aziz66710/CNN_chest_xray/blob/main/image_data_gen.png)
+![Image Data Generator](https://github.com/aziz66710/CNN_chest_xray/blob/main/image_data_gen.png)
 
 3. Display images to ensure they have been pre-processed.
 4. Prepare the images in batches to be fed into the Neural Network.
 
 The following images displays the pre-processed images (vgg16 pre-processing, re-scaling, zoom, shear (image distortion along an axis)). These images and many more batches will be passed into the CNN for training. 
+
 ![Chest X-rays from Training Batch](https://github.com/aziz66710/CNN_chest_xray/blob/main/train_images.png)
+
 
 
 ### Build the Neural Network
