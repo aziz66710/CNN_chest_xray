@@ -69,9 +69,16 @@ Testing Accuracy = 80%
 | `Normal`      | `0.78`      | `0.84`      | `0.81`        |
 | `Pneumonia`   | `0.83`      | `0.77`      | `0.80`        |
 
-The images below demonstrates the confusion matrix of the test dataset containing the number of correct/incorrect classifications of the normal and pneumonia x-ray images.
+The images below demonstrates the non-normalized and normalized confusion matrices, respectively, of the test dataset containing the number of correct/incorrect classifications of the normal and pneumonia x-ray images. 
+
+In case you have not heard of a confusion matrix, it is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. An image is classified correctly when the predicted label is the same as the true label. Similarily an image is classified incorrectly when the predicted label is NOT the same as the true label. Given this, the top right indicates the CORRECTLY classified pneumonia chest x-ray images and the bottom left indicates the CORRECTLY classified normal images. The other 2 boxes are the misclassifications where the CNN incorrectly predicted an image as either normal or pneumonia.  
+
+Based on these confusion matrices, a great deal of chest-xrays were incorrectly classified as 'PNEUMONIA' when it was truely 'NORMAL'. Misclassifications generally occur due to the CNN being unable to clearly identify the key distinguishing features within an image such as the white spots found in a pneumonia x-ray. Despite this, the CNN demonstrates promising results with accuracy at 80% and can be further improved upon as discussed in the Future Work and Improvements section. 
 
 ![Non-normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/non-norm_cm.png)
+
+
+
 
 ![normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/norm_cm.png)
 
