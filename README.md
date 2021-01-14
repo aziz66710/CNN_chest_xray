@@ -11,7 +11,10 @@ This project will focus on the Image Classification of Normal and Pneumonia ches
 | Header | Title |
 | Paragraph | Text |
 
-
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 
 Dataset:
