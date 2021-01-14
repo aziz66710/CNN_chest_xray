@@ -59,9 +59,9 @@ Testing Accuracy = 80%
 
 The images below demonstrates the confusion matrix of the test dataset containing the number of correct/incorrect classifications of the normal and pneumonia x-ray images.
 
-![Non-normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/non-norm_cm.png.png)
+![Non-normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/non-norm_cm.png)
 
-![normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/norm_cm.png.png)
+![normalized CM](https://github.com/aziz66710/CNN_chest_xray/blob/main/norm_cm.png)
 
  
 
