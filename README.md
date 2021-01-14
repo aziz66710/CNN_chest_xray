@@ -9,8 +9,8 @@ This project will focus on the Image Classification of Normal and Pneumonia ches
 
 |`Class`        |`Precision`  | `Recall`    | `F1-Score`    |
 | -----------   | ----------- |-------------- |
-| `Normal`      | 0.78       | 0.84 | 0.81
-| `Pneumonia`   | 0.83        | 0.77 | 0.8
+| `Normal`      | `0.78`       | `0.84` | `0.81`|
+| `Pneumonia`   | `0.83`        | `0.77` | `0.8`|
 
 Accuracy = 80% on Test Data
 
