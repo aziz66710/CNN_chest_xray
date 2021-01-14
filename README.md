@@ -10,10 +10,16 @@ Based on the images of normal and pneumonia chest x-rays seen below, it can be v
 ![Normal X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/normal.jpg)   |  ![Pneumonia X-ray](https://github.com/aziz66710/CNN_chest_xray/blob/main/pneumonia.jpg)
 
 ## Purpose
-This project will focus on the Image Classification of Normal and Pneumonia chest x-rays using a Convolutional Neural Network (CNN). CNN is one of the most popular and powerful methods of deep learning for image processing, classification and segmentation. Its power stems from the convolution operation where it acts as a filter to identify key features within an image that can be used for accurate classification. 
+This project will focus on the Image Classification of Normal and Pneumonia chest x-rays using a Convolutional Neural Network (CNN). CNN is one of the most popular and powerful methods of deep learning for image processing, classification and segmentation. Put simply, a CNN looks for key patterns and features within images using a special filter called a convolution filter. Once the features have been found, they are given to a neural network (brain) where it is taught to identify these key features in images. Once a sufficient amount of data is given to the network, it will be considered as "trained" and it can begin making predictions on new, unseen images.   
 
-## Skills used
-Tensorflow, Keras, Scikit-learn, Matplotlib, Image processing, Image augmentation, Machine Learning/AI, Deep Learning
+## Libraries and Skills Used
+- Tensorflow - Open source library created by Google for numerical computation and large-scale machine learning. Used with keras to build the CNN model.
+- Keras - Deep Learning API written in Python. Used with TensorFlow to create large-scale deep learning models.
+- Scikit-learn -  Machine learning library. This was used for generation confusion matrix and classifier performance metrics.
+- Matplotlib - This library was used for all the plots generated including the images. 
+- Image processing - Images were processed by resizing all images to one size and using the VGG16 (popular CNN architecture) pre-processing function.  
+- Image augmentation - Dataset size was increased using the ImageDataGenerator function provided in TensorFlow. 
+- Deep Learning - CNN deep learning model with multiple convolution and max pooling layers. See Build the Neural Network below. 
 
 ## Dataset
 The dataset can be found at the following link: [Chest X-ray Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
