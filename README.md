@@ -1,4 +1,4 @@
-# Convolutional Neural Network(CNN) for Image Classification of Normal and Pneumonia Chest X-rays
+# Convolutional Neural Network (CNN) for Image Classification of Normal and Pneumonia Chest X-rays
 
 ## Introduction
 Pneumonia is an infection within the lungs where the air sacs in one or both lungs have become inflamed. The air sacs fill with fluid or pus which causes coughing with phlegm, fever and difficulty breathing. It is caused by bacteria, viruses and/or fungi entering the respiratory system. Over 150 million people get infected with pneumonia on an annual basis especially children under 5 years old. Doctors, nurses and hospital staff review chest x-rays in order to diagnose a patient has pneumonia. They look for white spots on the lungs to identify an infection. 
